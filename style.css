@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: lch(34.8% 125.3 304.61);
+    font-size:30px;
+    text-decoration: underline;
+}
+
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373b44, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000000;
+}
+
+header{
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:azure;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centra los botones */
+  gap: 20px;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;          /* Espacio interno → ancho x alto */
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* Color del botón */
+  color: white;                /* Texto blanco */
+  text-decoration: none;       /* Quita subrayado */
+  border-radius: 10px;         /* Bordes redondeados (ajusta a tu gusto) */
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  background-color: #16a085;   /* Color al pasar el mouse */
+}
+
+
+
+section{
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:azure;
+    margin-top: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+footer a {
+  font-size: inherit;
+}
+footer a:hover{
+    font-size: 50px;
+}
+
+
+.p_contacto{
+    text-align: center;
+    font-size: 30px;
+}
+.ul_contacto{
+    font-size: 45px;
+    text-align: center;
+    list-style: none;
+}
